@@ -1,0 +1,9 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+.env
+.env.*
+# User rule: no Markdown pushed except root README. ADR/notes stay local.
+*.md
+!/README.md
